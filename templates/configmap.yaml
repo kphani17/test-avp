@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: test-secrets
 data:
-  prometheus-token: {{ .Values.secrets.prometheus }}
-  instana-key: {{ .Values.secrets.instana }}
+  prometheus-token: {{ .Values.secrets.prometheus | quote }}
+  instana-key: {{ .Values.secrets.instana | quote }}
