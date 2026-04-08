@@ -1,0 +1,3 @@
+secrets:
+prometheus: <path:kv-avp-test-1234#federation>
+instana: <path:kv-avp-test-1234#instana>
