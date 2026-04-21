@@ -12,10 +12,6 @@ service:
   port: 80
   nodePort: 31231
 
-
-
-
-
 secrets:
   prometheus: <path:keyvault-seg-credentials#key-vault-REACT-APP-SEGMENT-KEY>
   instana: <path:keyvault-seg-credentials#key-vault-REACT-APP-SEGMENT-URL>
